@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krantii's Art Gallery</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 0;  
+        }
+
+        header{
+            background-color: tomato;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav{
+            background-color: lightcoral;
+            display: flex;
+            position: sticky;
+            top: 0;
+            padding: 10px;
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+        }
+
+        nav a{
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            list-style-type: none;
+        }
+    
+        section{
+            background-color: antiquewhite;
+            padding: 300px 200px;
+            text-align: center;
+        }
+
+        #home{
+            
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+
+        .gallery-container{
+            background-color: whitesmoke;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px;
+            max-width: 1200px;
+        }
+
+        .artwork{
+            background-color: white;
+            border: 1px solid;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+        }
+
+        .artwork img{
+            width: 100%;
+            height: auto;
+        }
+        
+        .artwork h3{
+            text-transform: capitalize;
+        }
+
+        button{
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: lightcoral;
+            border: none;
+            color: white;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background-color: tomato;
+        }
+
+        footer{
+            background-color: whitesmoke;
+            text-align: center;
+            text-decoration: none;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Krantii's Art Gallery</h1>
+        <p>Handmade artworks for your soul</p>    
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my world of creativity! Dive into a collection of heartfelt artworks</p>
+    </section>
+    <hr>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>I'm Kranti, a passionate self-taught artist creating soulful and vibrant handmade artworks</p>
+    </section>
+    <hr>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>Custom paintings,gifting solutions,and art commissions.Bring your imagination to life!</p>
+    </section>
+    <hr>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <div class="artwork">
+                <img style="width: 300px;" src="radha krishn painting.jpeg" alt="Radha_Krishn art">
+                <h3>Radha_Krishn Painting</h3>
+                <p><em>Watercolor on paper -rs.499</em></p>
+                <p>A soulful depiction of Radha and Krishn in gentle paste tones</p>
+                <button>Buy now</button>
+            </div>
+        
+            <div class="artwork">
+                <img style="width: 300px;" src="ghibli art.jpeg" alt="Ghibli art">
+                <h3>ghibli art</h3>
+                <p><em>Acrylic on canvas -rs.99</em></p>
+                <p>Inspired by studio ghibli,this piece captures whimsical charm and nostalgia</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="artwork">
+                <img style="width: 300px;" src="mandala art.jpeg" alt="Mandala art">
+                <h3>Mandala art</h3>
+                <p><em>pen and paper -rs.199</em></p>
+                <p>Intricate mandala pattern surrounding a graceful Ganesha Motif</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="artwork">
+                <img style="width: 300px;" src="pencil sketch.jpeg" alt="Pencil sketch">
+                <h3>Pencil sketch</h3>
+                <p><em>Pencil on paper -rs.399</em></p>
+                <p>the art of sketch of madhubala</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="artwork">
+                <img style="width: 300px;" src="mehandi  art.jpeg" alt="mehandi art">
+                <h3>mehandi art</h3>
+                <p><em>Mehandi on paper -rs.299</em></p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="artwork">
+                <img style="width: 300px;" src="miniature sculpture art.jpeg" alt="miniature sculpture art">
+                <h3>miniature sculpture art</h3>
+                <p><em>clay cartoon -rs.99</em></p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="artwork">
+                <img style="width: 300px;" src="mirror mosaic art.jpeg" alt="mirror mosaic art">
+                <h3>mirror mosaic art</h3>
+                <p><em>art using mirrors -rs.499</em></p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="artwork">
+                <img style="width: 300px;" src="glass painting.jpeg" alt="glass painting">
+                <h3>glass painting</h3>
+                <p><em>painting on glass -rs.299</em></p>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: krantibharmal910@gmail.com</p>
+        <p>Connect with me on instagram:
+            <a href="https://instagram.com/thekrantiartist_910" target="_blank">@thekrantiartist_910</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>2025 Krantii's Art Gallary.All rights reserved.</p>
+    </footer>
+</body>
+</html>

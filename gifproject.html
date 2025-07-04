@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        img{
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Doraemon_Nobita</h1>
+    <button onclick="laugh()">laugh</button>
+    <img id="start"src="gif/d4.gif" alt="">
+    
+    <button onclick="stop()">stop</button>
+
+    <script>
+        function laugh(){
+            document.getElementById("start").src="gif/d4.gif";
+        };
+        function stop(){
+            document.getElementById("start").src="img/Screenshot 2025-06-25 195504.png";
+        };
+    </script>
+</body>
+</html>
